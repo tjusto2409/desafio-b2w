@@ -18,7 +18,18 @@ module.exports = function (url) {
                 breadcrumb.push(this.children[0].data);
             });
 
+            // Montando o objeto com os dados resgatados da url
+            const product = {
+                id: id,
+                breadcrumb : breadcrumb,
+                name: titulo,
+                img: image,
+                seller: vendendor,
+                price: preco
+            };
             
+            // Printando os valores no terminal
+            console.log(product);            
         })
         .catch(err => {
             console.log('Ops! Ocorreu um erro.');
