@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/tjusto2409/desafio-b2w/issues"
   },
-  "homepage": "https://github.com/tjusto2409/desafio-b2w#readme"
+  "homepage": "https://github.com/tjusto2409/desafio-b2w#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
+  }
 }
