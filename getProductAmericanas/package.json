@@ -1,0 +1,19 @@
+{
+  "name": "getproductamericanas",
+  "version": "1.0.0",
+  "description": "Nosso desafio consiste na implementação de um módulo Node.js que permita receber o URL de um produto da americanas.com e retorne um JSON com informação deste produto.",
+  "main": "getProduct.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjusto2409/desafio-b2w.git"
+  },
+  "author": "Thiago Justo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjusto2409/desafio-b2w/issues"
+  },
+  "homepage": "https://github.com/tjusto2409/desafio-b2w#readme"
+}
